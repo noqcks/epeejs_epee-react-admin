@@ -20,14 +20,14 @@ const Login: React.FC<LRouteComponentProps> = ({ history }) => {
           rules={[{ required: true, message: 'Please input your Username!' }]}
         >
           <Input
-            prefix={<UserOutlined />}          />
+            prefix={<UserOutlined style={{}} />}          />
         </Form.Item>
         <Form.Item
           name="password"
           rules={[{ required: true, message: 'Please input your Password!' }]}
         >
           <Input
-            prefix={<LockOutlined />}
+            prefix={<LockOutlined style={{}} />}
             placeholder="Password"
           />
         </Form.Item>
