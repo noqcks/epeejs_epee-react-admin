@@ -20,7 +20,7 @@ const Login: React.FC<LRouteComponentProps> = ({ history }) => {
           rules={[{ required: true, message: 'Please input your Username!' }]}
         >
           <Input
-            prefix={<span style={{ color: 'rgba(0,0,0,.25)' }}><UserOutlined /></span>}
+            prefix={<UserOutlined style={{ color: 'rgba(0,0,0,.25)' }} />}
           />
         </Form.Item>
         <Form.Item
@@ -28,7 +28,7 @@ const Login: React.FC<LRouteComponentProps> = ({ history }) => {
           rules={[{ required: true, message: 'Please input your Password!' }]}
         >
           <Input
-            prefix={<span style={{ color: 'rgba(0,0,0,.25)' }}><LockOutlined /></span>} />
+            prefix={<LockOutlined style={{ color: 'rgba(0,0,0,.25)' }} />} />
         </Form.Item>
         <Form.Item>
           <Form.Item name="remember" valuePropName="checked" noStyle>
