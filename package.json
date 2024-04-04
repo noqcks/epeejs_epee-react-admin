@@ -22,7 +22,7 @@
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@epeejs/pro-layout": "^1.1.0",
-    "@reduxjs/toolkit": "^1.7.1",
+    "@reduxjs/toolkit": "^2.2.3",
     "ahooks": "^3.1.9",
     "antd": "^4.23.4",
     "classnames": "^2.3.1",
