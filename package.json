@@ -20,7 +20,7 @@
     "*.{json,ts,tsx,js,jsx,md,scss,less,css,html}": "prettier --write"
   },
   "dependencies": {
-    "@ant-design/icons": "^4.7.0",
+    "@ant-design/icons": "^5.3.6",
     "@epeejs/pro-layout": "^1.1.0",
     "@reduxjs/toolkit": "^1.7.1",
     "ahooks": "^3.1.9",
