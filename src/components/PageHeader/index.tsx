@@ -32,7 +32,7 @@ const PageHeader: React.FC<PageHeaderProps> = () => {
                   window.location.href = '/login';
                 }}
               >
-                <span style={{ marginRight: 15 }}><PoweroffOutlined /></span>
+                <span style={{ marginRight: 15 }}><PoweroffOutlined style={{}} /></span>
                 <span>退出登录</span>
               </span>
             </Menu.Item>
@@ -40,7 +40,7 @@ const PageHeader: React.FC<PageHeaderProps> = () => {
         }
       >
         <div className={styles.pop_trigger}>
-          <Avatar><UserOutlined /></Avatar>
+          <Avatar><UserOutlined style={{}} /></Avatar>
           <span className={styles.user_name}>{userInfo.name}</span>
         </div>
       </Dropdown>
