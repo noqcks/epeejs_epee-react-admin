@@ -4,7 +4,7 @@ import { Button, Checkbox, Form, Input } from 'antd';
 import React from 'react';
 import styles from './Login.module.less';
 
-const Login: React.FC<LRouteComponentProps> = ({ history }) => {
+const Login: React.FC<LRouteComponentProps & RouteComponentProps> = ({ history }) => {
   return (
     <div className={styles.wrap}>
       <Form
