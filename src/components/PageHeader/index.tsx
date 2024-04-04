@@ -40,7 +40,7 @@ const PageHeader: React.FC<PageHeaderProps> = () => {
         }
       >
         <div className={styles.pop_trigger}>
-          <Avatar><UserOutlined style={{}} /></Avatar>
+          <Avatar icon={<UserOutlined />} />
           <span className={styles.user_name}>{userInfo.name}</span>
         </div>
       </Dropdown>
