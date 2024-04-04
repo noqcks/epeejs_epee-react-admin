@@ -21,7 +21,6 @@ const Login: React.FC<LRouteComponentProps> = ({ history }) => {
         >
           <Input
             prefix={<UserOutlined style={{ color: 'rgba(0,0,0,.25)' }} />}
-            placeholder="Username"
           />
         </Form.Item>
         <Form.Item
@@ -30,8 +29,6 @@ const Login: React.FC<LRouteComponentProps> = ({ history }) => {
         >
           <Input
             prefix={<LockOutlined style={{ color: 'rgba(0,0,0,.25)' }} />}
-            type="password"
-            placeholder="Password"
           />
         </Form.Item>
         <Form.Item>
