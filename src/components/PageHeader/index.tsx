@@ -32,7 +32,7 @@ const PageHeader: React.FC<PageHeaderProps> = () => {
                   window.location.href = '/login';
                 }}
               >
-                <PoweroffOutlined />
+                <PoweroffOutlined style={{}} />
                 <span>退出登录</span>
               </span>
             </Menu.Item>
