@@ -22,9 +22,7 @@ const SearchList: React.FC<Required<LRouteComponentProps>> = ({
   };
 
   return (
-    <PageContainer tabList={tablist} tabActiveKey={getTabKey()} onTabChange={handleTabChange}>
-      <Card>{children}</Card>
-    </PageContainer>
+    <PageContainer tabList={tablist} tabActiveKey={getTabKey()} onTabChange={handleTabChange} content={<Card>{children}</Card>} />
   );
 };
 
