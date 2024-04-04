@@ -29,6 +29,7 @@ const Login: React.FC<LRouteComponentProps> = ({ history }) => {
           <Input
             prefix={<LockOutlined style={{ color: 'rgba(0,0,0,.25)' }} />}
           />
+        </Form.Item>
         <Form.Item>
           <Form.Item name="remember" valuePropName="checked" noStyle>
             <Checkbox>Remember me</Checkbox>
