@@ -11,7 +11,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 const store = configureStore({
   reducer: rootReducer,
-  middleware: getDefaultMiddleware().concat(middleware),
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(middleware),
 });
 
 // if (process.env.NODE_ENV !== 'production' && module.hot) {
